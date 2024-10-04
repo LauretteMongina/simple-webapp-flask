@@ -74,11 +74,11 @@ Steps Taken to Complete the Project
    
     1. Sensitive information such as secret keys are managed through environment variables and stored securely in GitHub Secrets.
        
-    3. HTTPS Support: The app is now configured to run over HTTPS using the specified certificate files (cert.pem and key.pem). This encrypts the data in transit.
+    2. HTTPS Support: The app is now configured to run over HTTPS using the specified certificate files (cert.pem and key.pem). This encrypts the data in transit.
        
-    5. Secure Cookies: Cookies are set with the Secure and HttpOnly flags to enhance cookie security.
+    3. Secure Cookies: Cookies are set with the Secure and HttpOnly flags to enhance cookie security.
        
-    7. Error Handling: Custom error handlers for 404 and 500 errors are included to provide meaningful error messages.
+    4. Error Handling: Custom error handlers for 404 and 500 errors are included to provide meaningful error messages.
        
-    9. Rate Limiting: The Flask-Limiter library is utilized to limit the /how-are-you endpoint to 5 requests per minute to prevent abuse.
+    5. Rate Limiting: The Flask-Limiter library is utilized to limit the /how-are-you endpoint to 5 requests per minute to prevent abuse.
 
