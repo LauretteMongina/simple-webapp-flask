@@ -15,9 +15,10 @@ This project serves as a comprehensive guide for the CyberGirls Assessment 2, de
     Clone the existing Flask application from GitHub to your account for further development.
 
 # 2. Install Docker and KinD
-   Follow the official guides to install Docker and KinD on your local machine, setting the stage for containerization and Kubernetes deployment.
+     Follow the official guides to install Docker and KinD on your local machine, setting the stage for containerization and Kubernetes deployment.
 
 # 3. Containerization Process 
+    
     The API was containerized using Docker to ensure a consistent and reproducible deployment environment across various platforms. The containerization process        involved the following steps:
 
        1. **Creating the Dockerfile**: Defines the application environment, including dependencies and runtime configurations.
