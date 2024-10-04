@@ -32,7 +32,7 @@ Steps Taken to Complete the Project
     
 4. CI/CD Process
 
-    This project employs a CI/CD pipeline using GitHub Actions to automate the build, test, and deployment process. The CI/CD workflow consists of the following       steps:
+    This project employs a CI/CD pipeline using GitHub Actions to automate the build, test, and deployment process. The CI/CD workflow consists of the following steps:
 
     Build Stage:
        1. The code is checked out from the repository.
@@ -48,7 +48,7 @@ Steps Taken to Complete the Project
     GitHub Actions Workflow
     #See the full CI/CD configuration in .github/workflows/ci-cd.yaml
 
-5. Kubernetes Deployment
+6. Kubernetes Deployment
 
    The API is deployed to a local kind cluster using the Kubernetes manifests located in the k8s directory. The deployment process involves:
 
@@ -60,7 +60,7 @@ Steps Taken to Complete the Project
 
     # See the  full service manifest in the service.yaml file
 
-6. Security measures implemented
+7. Security measures implemented
     The project incorporates several security measures to safeguard the API and its data:
     1. Sensitive information such as secret keys are managed through environment variables and stored securely in GitHub Secrets.
     2. HTTPS Support: The app is now configured to run over HTTPS using the specified certificate files (cert.pem and key.pem). This encrypts the data in transit.
