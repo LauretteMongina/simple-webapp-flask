@@ -57,8 +57,8 @@ This project serves as a comprehensive guide for the CyberGirls Assessment 2, de
     #See the full CI/CD configuration in .github/workflows/ci-cd.yaml
 
 # 5. Kubernetes Deployment
-
-   The API is deployed to a local kind cluster using the Kubernetes manifests located in the k8s directory. The deployment process involves:
+     
+    The API is deployed to a local kind cluster using the Kubernetes manifests located in the k8s directory. The deployment process involves:
 
     Deployment: Defines how the API pods are managed, including the number of replicas and container specifications.
 
