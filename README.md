@@ -46,7 +46,7 @@ This project employs a CI/CD pipeline using GitHub Actions to automate the build
         3.Kubernetes manifests are applied to deploy the API and related services.
 
 GitHub Actions Workflow
-#See the full CI/CD configuration in .github/workflows/ci-cd.yml
+#See the full CI/CD configuration in .github/workflows/ci-cd.yaml
 
 5. Kubernetes Deployment
 
