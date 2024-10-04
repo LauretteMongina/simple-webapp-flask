@@ -35,6 +35,7 @@ Steps Taken to Complete the Project
     This project employs a CI/CD pipeline using GitHub Actions to automate the build, test, and deployment process. The CI/CD workflow consists of the following steps:
 
     Build Stage:
+   
        1. The code is checked out from the repository.
    
        2. Docker Buildx is set up for building multi-platform images.
@@ -44,6 +45,7 @@ Steps Taken to Complete the Project
        4.The Docker image is built and pushed to Docker Hub, making it available for deployment.
 
     Deploy Stage:
+   
         1.After a successful build, the workflow sets up kubectl and creates a local kind Kubernetes cluster.
    
         2.The KUBECONFIG is configured to access the kind cluster.
@@ -51,6 +53,7 @@ Steps Taken to Complete the Project
         3.Kubernetes manifests are applied to deploy the API and related services.
 
     GitHub Actions Workflow
+   
     #See the full CI/CD configuration in .github/workflows/ci-cd.yaml
 
 6. Kubernetes Deployment
