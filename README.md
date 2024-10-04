@@ -36,13 +36,18 @@ Steps Taken to Complete the Project
 
     Build Stage:
        1. The code is checked out from the repository.
+   
        2. Docker Buildx is set up for building multi-platform images.
+   
        3. Docker Login: Authenticates with Docker Hub using credentials stored in GitHub Secrets.
+   
        4.The Docker image is built and pushed to Docker Hub, making it available for deployment.
 
     Deploy Stage:
         1.After a successful build, the workflow sets up kubectl and creates a local kind Kubernetes cluster.
+   
         2.The KUBECONFIG is configured to access the kind cluster.
+   
         3.Kubernetes manifests are applied to deploy the API and related services.
 
     GitHub Actions Workflow
