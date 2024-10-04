@@ -19,7 +19,7 @@ This project serves as a comprehensive guide for the CyberGirls Assessment 2, de
 
 # 3. Containerization Process 
     
-    The API was containerized using Docker to ensure a consistent and reproducible deployment environment across various platforms. The containerization process        involved the following steps:
+    The API was containerized using Docker to ensure a consistent and reproducible deployment environment across various platforms. The containerization process involved the following steps:
 
        1. **Creating the Dockerfile**: Defines the application environment, including dependencies and runtime configurations.
        2. **Building the Docker Image**: The Docker image is built using the following key elements:
