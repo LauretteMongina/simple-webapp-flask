@@ -28,7 +28,7 @@ Steps Taken to Complete the Project
    - **Copying Application Code**: The Flask application code and necessary files are copied into the container.
    - **Exposing Ports**: The container exposes the necessary ports to allow communication with the application.
    - **Setting the Entry Point**: Specifies the command to run the application when the container starts.
-# Check the dockerfile 
+#Check the dockerfile
     
 4. CI/CD Process
 
@@ -46,7 +46,7 @@ This project employs a CI/CD pipeline using GitHub Actions to automate the build
         3.Kubernetes manifests are applied to deploy the API and related services.
 
 GitHub Actions Workflow
-# See the full CI/CD configuration in .github/workflows/main.yml
+#See the full CI/CD configuration in .github/workflows/main.yml
 
 5. Kubernetes Deployment
 
@@ -58,7 +58,7 @@ The API is deployed to a local kind cluster using the Kubernetes manifests locat
 
     Service: Exposes the API to allow external access via a NodePort or LoadBalancer.
 
-    # see the  full service manifest in the service.yaml file
+    # See the  full service manifest in the service.yaml file
 
 6. Security measures implemented
     The project incorporates several security measures to safeguard the API and its data:
