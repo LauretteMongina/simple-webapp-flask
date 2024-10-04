@@ -62,11 +62,11 @@ Steps Taken to Complete the Project
 
     Deployment: Defines how the API pods are managed, including the number of replicas and container specifications.
 
-    # See the full deployment manifest in the deployment.yaml file
+    #See the full deployment manifest in the deployment.yaml file
 
     Service: Exposes the API to allow external access via a NodePort or LoadBalancer.
 
-    # See the  full service manifest in the service.yaml file
+    #See the  full service manifest in the service.yaml file
 
 7. Security measures implemented
    
