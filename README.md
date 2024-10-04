@@ -1,9 +1,8 @@
-Project Summary: CyberGirls Assessment 2 - Flask API Development and Deployment
-Overview
+# Project Summary: CyberGirls Assessment 2 - Flask API Development and Deployment Overview
 
 This project serves as a comprehensive guide for the CyberGirls Assessment 2, detailing the process of developing, containerizing, and deploying a Flask API. It emphasizes the importance of security measures and the implementation of a Continuous Integration/Continuous Deployment (CI/CD) pipeline using GitHub Actions to streamline the development workflow.
 
-Objectives
+# Objectives
 
     . Develop a Flask API capable of handling user requests.
     . Containerize the API using Docker for easier deployment and management.
@@ -11,14 +10,14 @@ Objectives
     . Implement a CI/CD pipeline using GitHub Actions to automate the build and deployment processes.
     . Ensure the security of the API through best practices in Kubernetes.
 
-Steps Taken to Complete the Project
-1. Fork and clone the Flask App Repository
+# Steps Taken to Complete the Project
+# 1. Fork and clone the Flask App Repository
     Clone the existing Flask application from GitHub to your account for further development.
 
-2. Install Docker and KinD
+# 2. Install Docker and KinD
    Follow the official guides to install Docker and KinD on your local machine, setting the stage for containerization and Kubernetes deployment.
 
-3. Containerization Process 
+# 3. Containerization Process 
     The API was containerized using Docker to ensure a consistent and reproducible deployment environment across various platforms. The containerization process        involved the following steps:
 
        1. **Creating the Dockerfile**: Defines the application environment, including dependencies and runtime configurations.
@@ -30,7 +29,7 @@ Steps Taken to Complete the Project
            - **Setting the Entry Point**: Specifies the command to run the application when the container starts.
            #Check the dockerfile
     
-4. CI/CD Process
+# 4. CI/CD Process
 
     This project employs a CI/CD pipeline using GitHub Actions to automate the build, test, and deployment process. The CI/CD workflow consists of the following steps:
 
@@ -56,7 +55,7 @@ Steps Taken to Complete the Project
    
     #See the full CI/CD configuration in .github/workflows/ci-cd.yaml
 
-6. Kubernetes Deployment
+# 5. Kubernetes Deployment
 
    The API is deployed to a local kind cluster using the Kubernetes manifests located in the k8s directory. The deployment process involves:
 
@@ -68,7 +67,7 @@ Steps Taken to Complete the Project
 
     #See the  full service manifest in the service.yaml file
 
-7. Security measures implemented
+# 6. Security measures implemented
    
     The project incorporates several security measures to safeguard the API and its data:
    
