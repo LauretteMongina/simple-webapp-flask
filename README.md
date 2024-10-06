@@ -4,11 +4,10 @@ This project serves as a comprehensive guide for the CyberGirls Assessment 2, de
 
 # Objectives
 
-    . Develop a Flask API capable of handling user requests.
     . Containerize the API using Docker for easier deployment and management.
     . Deploy the containerized application to a Kubernetes cluster using KinD (Kubernetes in Docker).
     . Implement a CI/CD pipeline using GitHub Actions to automate the build and deployment processes.
-    . Ensure the security of the API through best practices in Kubernetes.
+    . Ensure the security of the API through best practices.
 
 # Steps Taken to Complete the Project
 # 1. Fork and clone the Flask App Repository
